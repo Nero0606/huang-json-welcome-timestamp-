@@ -1,26 +1,364 @@
-[
-  {
-    "name": "Liaw Sze Wong",
-    "time": "1pm",
-    "late": false,
-    "gender": "M",
-    "IsClass": false,
-    "location": "S434"
-  },
-  {
-    "name": "Low Jia Xin",
-    "time": "2pm",
-    "late": true,
-    "gender": "F",
-    "IsClass": true,
-    "location": "S434"
-  },
-  {
-    "name": "Sophia Wei",
-    "time": "1.10pm",
-    "late": false,
-    "gender": "F",
-    "IsClass": true,
-    "location": "S434"
-  }
-]
+{
+  "onedaylesson": [
+    {
+      "id": "LIAWSW",
+      "wday":"monday",
+      "week":"1",
+      "day":"1",
+      "time": "8am",
+      "moduleCode": "EG2012-E1-1"
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"monday",
+      "week":"1",
+      "day":"1",
+      "time": "12pm",
+      "moduleCode": "EG2013-E2-1"
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"monday",
+      "week":"2",
+      "day":"1",
+      "time": "8am",
+      "moduleCode": "EG2012-E1"
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"monday",
+      "week":"2",
+      "day":"1",
+      "time": "12pm",
+      "moduleCode": "EG2013-E2"
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"tuesday",
+      "week":"2",
+      "day":"2",
+      "time": "9am",
+      "moduleCode": "EG3001-Z1"
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"tuesday",
+      "week":"2",
+      "day":"2",
+      "time": "1pm",
+      "moduleCode": "EG3210-Z3"
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"wednesday",
+      "week":"2",
+      "day":"3",
+      "time": "10am",
+      "moduleCode": "EG2012-G2"
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"wednesday",
+      "week":"2",
+      "day":"3",
+      "time": "12pm",
+      "moduleCode": "EG2013-G1"
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"thursday",
+      "week":"2",
+      "day":"4",
+      "time": "9am",
+      "moduleCode": "EG3001-A2"
+    },
+    {
+      "id": "LOWJX",
+      "wday":"thursday",
+      "week":"2",
+      "day":"4",
+      "time": "1pm",
+      "moduleCode": "EG3210-A3"
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"friday",
+      "week":"2",
+      "day":"5",
+      "time": "3pm",
+      "moduleCode": "EG3001-C1"
+    },
+    {
+      "id": "LOWJX",
+      "wday":"friday",
+      "week":"2",
+      "day":"5",
+      "time": "5pm",
+      "moduleCode": "EG3210-C3"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "LIAWSW",
+      "time": "8am",
+      "wday":"monday",
+      "week":"2",
+      "day":"1",
+      "moduleCode": "EG2012-E1",
+      "name":"Lee XX",
+      "gender":"male",
+      "uri":"photo1",
+      "FirstSeenTime":"7.50am",
+      "AbsentDuration":"-",
+      "Absence":false
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"monday",
+      "week":"2",
+      "day":"1",
+      "time": "8am",
+      "moduleCode": "EG2012-E1",
+      "name":"Tan XX",
+      "gender":"female",
+      "uri":"photo2",
+      "FirstSeenTime":"8.00am",
+      "AbsentDuration":"-",
+      "Absence":false
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"monday",
+      "week":"2",
+      "day":"1",
+      "time": "12pm",
+      "moduleCode": "EG2013-E2",
+      "name":"Wong XX",
+      "gender":"male",
+      "uri":"photo3",
+      "FirstSeenTime":"11.50am",
+      "AbsentDuration":"-",
+      "Absence":false
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"tuesday",
+      "week":"2",
+      "day":"2",
+      "time": "9am",
+      "moduleCode": "EG3001-Z1",
+      "name":"Lee XX",
+      "gender":"female",
+      "uri":"photo4",
+      "FirstSeenTime":"8.50am",
+      "AbsentDuration":"-",
+      "Absence":false
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"tuesday",
+      "week":"2",
+      "day":"2",
+      "time": "1pm",
+      "moduleCode": "EG3210-Z3",
+      "name":"Kong XX",
+      "gender":"male",
+      "uri":"photo5",
+      "FirstSeenTime":"1pm",
+      "AbsentDuration":"-",
+      "Absence":false
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"wednesday",
+      "week":"2",
+      "day":"3",
+      "time": "10am",
+      "moduleCode": "EG2012-G2",
+      "name":"Chen XX",
+      "gender":"female",
+      "uri":"photo6",
+      "FirstSeenTime":"9.55am",
+      "AbsentDuration":"-",
+      "Absence":false
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"wednesday",
+      "week":"2",
+      "day":"3",
+      "time": "12pm",
+      "moduleCode": "EG2013-G1",
+      "name":"Chen XX",
+      "gender":"male",
+      "uri":"photo7",
+      "FirstSeenTime":"11.59am",
+      "AbsentDuration":"-",
+      "Absence":false
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"thursday",
+      "week":"2",
+      "day":"4",
+      "time": "9am",
+      "moduleCode": "EG3001-A2",
+      "name":"Tee XX",
+      "gender":"female",
+      "uri":"photo8",
+      "FirstSeenTime":"8.45am",
+      "AbsentDuration":"-",
+      "Absence":false
+    },
+    {
+      "id": "LOWJX",
+      "wday":"thursday",
+      "week":"2",
+      "day":"4",
+      "time": "1pm",
+      "moduleCode": "EG3210-A3",
+      "name":"Loh XX",
+      "gender":"male",
+      "uri":"photo9",
+      "FirstSeenTime":"1.30pm",
+      "AbsentDuration":"30min",
+      "Absence":true
+    },
+    {
+      "id": "LIAWSW",
+      "wday":"friday",
+      "week":"2",
+      "day":"5",
+      "time": "3pm",
+      "moduleCode": "EG3001-C1",
+      "name":"Li XX",
+      "gender":"female",
+      "uri":"photo10",
+      "FirstSeenTime":"-",
+      "AbsentDuration":"2hour",
+      "Absence":true
+    },
+    {
+      "id": "LOWJX",
+      "wday":"friday",
+      "week":"2",
+      "day":"5",
+      "time": "5pm",
+      "moduleCode": "EG3210-C3",
+      "name":"Song XX",
+      "gender":"male",
+      "uri":"photo11",
+      "FirstSeenTime":"5.20pm",
+      "AbsentDuration":"20min",
+      "Absence":true
+    }
+  ],
+  "photo": [
+    {
+      "id": "LIAWSW",
+      "name":"Lee XX",
+      "uri":"photo1",
+      "photo":"https://picsum.photos/150/150/?image=381"
+    },
+    {
+      "id": "LIAWSW",
+      "name":"Tan XX",
+      "uri":"photo2",
+      "photo":"https://picsum.photos/150/150/?image=382"
+    },
+    {
+      "id": "LIAWSW",
+      "name":"Wong XX",
+      "uri":"photo3",
+      "photo":"https://picsum.photos/150/150/?image=383"
+    },
+    {
+      "id": "LIAWSW",
+      "name":"Lee XX",
+      "uri":"photo4",
+      "photo":"https://picsum.photos/150/150/?image=384"
+    },
+    {
+      "id": "LIAWSW",
+      "name":"Kong XX",
+      "uri":"photo5",
+      "photo":"https://picsum.photos/150/150/?image=385"
+    },
+    {
+      "id": "LIAWSW",
+      "name":"Chen XX",
+      "uri":"photo6",
+      "photo":"https://picsum.photos/150/150/?image=386"
+    },
+    {
+      "id": "LIAWSW",
+      "name":"Chen XX",
+      "uri":"photo7",
+      "photo":"https://picsum.photos/150/150/?image=387"
+    },
+    {
+      "id": "LIAWSW",
+      "name":"Tee XX",
+      "uri":"photo8",
+      "photo":"https://picsum.photos/150/150/?image=388"
+    },
+    {
+      "id": "LOWJX",
+      "name":"Loh XX",
+      "uri":"photo9",
+      "photo":"https://picsum.photos/150/150/?image=389"
+    },
+    {
+      "id": "LIAWSW",
+      "name":"Li XX",
+      "uri":"photo10",
+      "photo":"https://picsum.photos/150/150/?image=390"
+    },
+    {
+      "id": "LOWJX",
+      "name":"Song XX",
+      "uri":"photo11",
+      "photo":"https://picsum.photos/150/150/?image=391"
+    }
+  ],
+  "calendar": [   
+    {
+      "id": "LIAWSW",
+      "date": "2019-5-9",
+      "day":"thursday",
+      "week": "4"
+    },
+    {
+      "id": "LOWJX",
+      "date": "2019-5-9",
+      "day":"thursday",
+      "week": "4"
+    }
+   ],
+  "welcome": [   
+    {
+      "name": "Liaw Sze Wong",
+      "time": "1pm",
+      "late": false,
+      "gender":"M",
+      "IsClass": false,
+      "location": "S434"
+    },
+    {
+      "name": "Low Jia Xin",
+      "time": "2pm",
+      "late": true,
+      "gender":"F",
+      "IsClass": true,
+      "location": "S434"
+    },
+    {
+      "name": "Sophia Wei",
+      "time": "1.10pm",
+      "late":false,
+      "gender":"F",
+      "IsClass": true,
+      "location": "S434"
+    }
+    ]
+}
